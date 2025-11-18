@@ -9,6 +9,7 @@
 \usepackage{mathtools}  % loads amsmath
 \usepackage{amssymb}    % loads amsfonts
 \usepackage{amsthm}
+\usepackage[titletoc]{appendix}
 
 %% Use these commands to set biographic information for the title page:
 \newcommand{\thesistitle}{Thesis Title}
@@ -74,9 +75,14 @@
 \section{Introduction}
 % Intro to chapter one
 
-% Format a LaTeX bibliography
+\begin{appendices}
+  \chapter{Title}
+\end{appendices}
+% appendix A
+
 \makebibliography
 \nocite{*}
+% Format a LaTeX bibliography
 
 % Figures and tables, if you decide to leave them to the end
 %\input{figure}
