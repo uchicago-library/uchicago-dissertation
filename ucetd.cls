@@ -19,10 +19,10 @@
 }
 
 % Default copyright text
-\newcommand{\etdCopyrightText}{
+\newcommand{\etdCopyrightText}[1]{
 	\null\vfill
 	\centerline{\textcopyright\ \number\year\ by \@author}
-	\centerline{ORCID iD: https://orcid.org/xxx-xxxx-xxxx-xxxx}
+	\centerline{ORCID iD: https://orcid.org/{#1}}
 	\vskip 15pt\relax
 }
 
@@ -183,7 +183,7 @@
 
 % Output a dedication/copyright/epigraph page
 \newcommand{\makededication}{\etdPreTOCMatter{\etdDedicationText}}
-\newcommand{\makecopyright}{\etdPreTOCMatter{\etdCopyrightText}}
+\newcommand{\makecopyright}[1]{\etdPreTOCMatter{\etdCopyrightText{{#1}}}}
 \newcommand{\makeepigraph}{\etdPreTOCMatter{\etdEpigraphText}}
 
 % Begin an abstract or acknowledgements page
