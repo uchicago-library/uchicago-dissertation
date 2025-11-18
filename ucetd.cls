@@ -22,7 +22,7 @@
 \newcommand{\etdCopyrightText}{
 	\null\vfill
 	\centerline{Copyright \textcopyright\ \number\year\ by \@author}
-	\centerline{All Rights Reserved}
+	\centerline{ORCID iD: https://orcid.org/xxx-xxxx-xxxx-xxxx}
 	\vskip 15pt\relax
 }
 
