@@ -21,7 +21,7 @@
 % Default copyright text
 \newcommand{\etdCopyrightText}{
 	\null\vfill
-	\centerline{Copyright \textcopyright\ \number\year\ by \@author}
+	\centerline{\textcopyright\ \number\year\ by \@author}
 	\centerline{ORCID iD: https://orcid.org/xxx-xxxx-xxxx-xxxx}
 	\vskip 15pt\relax
 }
@@ -62,7 +62,7 @@
 		\begin{center}
 			\rule{0in}{0.55in} % Artificial extra [old=0.95in] margin. Why not vspace?
 			THE UNIVERSITY OF CHICAGO\\
-			\vspace{0.8in}
+			\vspace{0.5in}
 			\MakeUppercase{\@title}\\
 			\vspace{1.0in}
 			A DISSERTATION SUBMITTED TO\\
@@ -74,7 +74,7 @@
 			\vspace{1.0in}
 			BY\\
 			\MakeUppercase{\@author}\\
-			\vspace{0.8in}
+                        \vfill
 			CHICAGO, ILLINOIS\\
 			\MakeUppercase{\@date}
 			\vspace*{0.45in}
